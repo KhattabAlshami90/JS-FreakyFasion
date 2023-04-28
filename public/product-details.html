@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produktdetaljer</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script defer src="./js/productDetails.js"></script>
+</head>
+
+<body>
+  <header>
+    <a href="/">
+      <img src="./img/Logo1.png" alt="logo photo" class="logo">
+    </a>
+
+    <div class="searchAndBasket">
+      <div class="searchBox">
+        <img src="./img/search.png" alt="" class="searchImg">
+        <form action="search.html" class="searchForm">
+          <input type="search" name="q" class="searchText" id="searchText" placeholder="Sök produkt" autocomplete="off">
+        </form>
+      </div>
+      <a href="/basket.html">
+        <button type="button" class="basketBtn" id="basketBtn">
+          .
+        </button>
+      </a>
+    </div>
+  </header>
+  <nav>
+    <a href="#">Nyheter</a>
+    <a href="#">Katagorier</a>
+    <a href="#">Topplistan</a>
+    <a href="#">Rea</a>
+    <a href="#">Kampanjer</a>
+  </nav>
+  <section class="product" id="product">
+  </section>
+  <section class="advertising">
+    <ul class="linksList">
+      <li>
+        <a href="#">
+          <div class="adFig" id="af1"></div><span>Gratis frakt och returer</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="adFig" id="af2"></div><span> Expressfrakt</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="adFig" id="af3"></div><span>Säkra betalningar</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="adFig" id="af4"></div><span>Nyheter varje dag</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <section class="accordion">
+    <a href="#shoppingSection">Shopping</a>
+    <div id="shoppingSection" class="accordion-content">
+      <ul>
+        <li><a href="#">Vinterjacka</a></li>
+        <li><a href="#">Pufferjacka</a></li>
+        <li><a href="#">Kappa</a></li>
+        <li><a href="#">Trenchcoats</a></li>
+      </ul>
+    </div>
+    <a href="#minaSidorSection">Mina Sidor</a>
+    <div id="minaSidorSection" class="accordion-content">
+      <ul>
+        <li><a href="#">Mina Ordrar</a></li>
+        <li><a href="#">Mitt Konto</a></li>
+      </ul>
+    </div>
+    <a href="#customerServiceSection">Kundtjänst</a>
+    <div id="customerServiceSection" class="accordion-content">
+      <ul class="subLinks">
+        <li><a href="#">Returnpolicy</a></li>
+        <li><a href="#">Integritetspolicy</a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="moobileHidden">
+    <ul class="mobileHiddenLinks">
+      <li>
+        <span>Shopping</span>
+        <ul class="subLinks">
+          <li><a href="#">Vinterjacka</a></li>
+          <li><a href="#">Pufferjacka</a></li>
+          <li><a href="#">Kappa</a></li>
+          <li><a href="#">Trenchcoats</a></li>
+        </ul>
+      </li>
+      <li>
+        <span>Mina Sidor</span>
+        <ul class="subLinks">
+          <li><a href="#">Mina Ordrar</a></li>
+          <li><a href="#">Mitt Konto</a></li>
+        </ul>
+      </li>
+      <li>
+        <span>Kundtjänst</span>
+        <ul class="subLinks">
+          <li><a href="#">Returnpolicy</a></li>
+          <li><a href="#">Integritetspolicy</a></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <footer>
+    <section class="copyRight">
+      <span>&copy; Freaky Fashion</span>
+    </section>
+    <section class="end">
+      <span>||</span>
+    </section>
+  </footer>
+</body>
+
+</html>

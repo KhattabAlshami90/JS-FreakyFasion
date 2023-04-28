@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administration</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script defer src="../../js/newProduct.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="../../img/ad.png" alt="admin" class="admin-logo">
+  </header>
+  <aside>
+    <h2>Produkter</h2>
+  </aside>
+
+  <section class="newProduct">
+    <h1>Ny Produkt</h1>
+    <form action="" class="newProductForm">
+      <label for="productName">Namn</label>
+      <input type="text" id="productName" name="productName" class="newProductInput" />
+      <label for="productDescription">Beskrivning</label>
+      <textarea type="text" id="productDescription" name="productDescription" cols="50" rows="7"
+        class="newProductArea"></textarea>
+      <label for="productImg">Bild URL</label>
+      <input type="text" id="productImg" name="productImg" class="newProductInput" />
+      <label for="productSKU">SKU</label>
+      <input type="text" id="productSKU" name="productSKU" class="newProductInput" />
+      <label for="productPrice">pris</label>
+      <input type="number" id="productPrice" name="productPrice" class="newProductInput" />
+      <button type="submit" class="adminBtn" id="adminAddProductBtn">Lägg till</button>
+    </form>
+    <div class="dashboardtBtns">
+      <a href="dashboard.html">
+            <button type="button" class="adminBtn" id="dashboardBtn">Dashboard</button>
+      </a>
+      <a href="../../index.html">
+        <button type="button" class="adminBtn" id="homePageBtn">Hem Sida</button>
+      </a>
+    </div>
+
+
+  </section>
+</body>
+
+</html>
