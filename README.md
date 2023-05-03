@@ -5,7 +5,7 @@
 
 2. Installera beroenden:
 
- cd JavaScript-FreakyFasion
+ cd JS-FreakyFasion
 
  npm install
 
