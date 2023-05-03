@@ -31,11 +31,7 @@ app.locals.products = [
     description: "Lorem ipsum dolor sit amet vit",
     imageUrl: "https://via.placeholder.com/320x480",
     sku: "BBB111",
-<<<<<<< HEAD
     price: 149
-=======
-    price: 149,
->>>>>>> 5b7ea5d3125222a7a08750fbdc3b19392528093c
   },
 ];
 
