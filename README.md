@@ -7,7 +7,7 @@
 
  cd JS-FreakyFasion
 
- npm install
+ npm install --force
 
 
 2. Starta servern
