@@ -1,23 +1,14 @@
-# Inlämningsuppgift (G/VG)
-
-Detta är stommen till Inlämningsuppgift (G/VG) i kursen JavaScript (35p), Webbutvecklare inom .NET.
-
-Du bygger vidare på denna enligt instruktioner i uppgiften.
 
 ## Kom igång
 
 1. Klona repo.
 
-```
-git clone https://github.com/ECUtbildning-WIN22/JavaScript-Inlamningsuppgift.git
-```
-
 2. Installera beroenden:
 
-```
-cd JavaScript-Inlamningsuppgift
-npm install
-```
+``` cd JavaScript-FreakyFasion
+
+``` npm install
+
 
 2. Starta servern
 
