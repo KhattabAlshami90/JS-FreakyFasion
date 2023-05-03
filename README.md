@@ -5,9 +5,9 @@
 
 2. Installera beroenden:
 
-``` cd JavaScript-FreakyFasion
+ cd JavaScript-FreakyFasion
 
-``` npm install
+ npm install
 
 
 2. Starta servern
