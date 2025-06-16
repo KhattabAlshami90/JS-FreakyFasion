@@ -43,6 +43,7 @@ Open http://localhost:3000 to view it in your browser.
 Open the index.html file in your web browser.
 
 Browse and interact with the clothing catalog and shopping cart.
+To add new product use AAA-22-RR RegEx
 
 Future Improvements Add backend integration for persistent data storage.
 
