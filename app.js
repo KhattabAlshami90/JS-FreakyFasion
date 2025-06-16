@@ -21,18 +21,42 @@ app.locals.products = [
     id: 1,
     name: "Svart T-shirt",
     description: "Lorem ipsum dolor sit amet svart",
-    imageUrl: "https://via.placeholder.com/320x480",
-    sku: "AAA111",
+    imageUrl: "https://placehold.co/600x400",
+    sku: "AAA11-DD",
     price: 149
   },
   {
     id: 2,
     name: "Vit T-Shirt",
     description: "Lorem ipsum dolor sit amet vit",
-    imageUrl: "https://via.placeholder.com/320x480",
-    sku: "BBB111",
+    imageUrl: "https://placehold.co/600x400",
+    sku: "BBB11-RR",
     price: 149
   },
+  {
+    id: 2,
+    name: "Röd T-Shirt",
+    description: "Lorem ipsum dolor sit amet röd",
+    imageUrl: "https://placehold.co/600x400",
+    sku: "BBB11-RR",
+    price: 149
+  },
+  {
+    id: 3,
+    name: "Svart T-Shirt",
+    description: "Lorem ipsum dolor sit amet svart",
+    imageUrl: "https://placehold.co/600x400",
+    sku: "BBB11-RR",
+    price: 300
+  },
+  {
+    id: 4,
+    name: "Grön T-Shirt",
+    description: "Lorem ipsum dolor sit amet grön",
+    imageUrl: "https://placehold.co/600x400",
+    sku: "BBB11-RR",
+    price: 500
+  }
 ];
 
 app.use('/api/products', productsApiRouter);
